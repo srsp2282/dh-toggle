@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "dhtoggle",
+  "version": "${version}",
+  "name": "DH Toggle",
+  "description": "Adds a normal Fabric keybind to toggle Distant Horizons LOD rendering.",
+  "authors": [
+    "Jay"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.raptornet.dhtoggle.DhToggleClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*",
+    "distanthorizons": "*"
+  }
+}

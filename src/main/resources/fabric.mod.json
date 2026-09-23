@@ -3,10 +3,16 @@
   "id": "dhtoggle",
   "version": "${version}",
   "name": "DH Toggle",
-  "description": "Adds a normal Fabric keybind to toggle Distant Horizons LOD rendering.",
+  "description": "Adds a normal, remappable Fabric keybind for toggling Distant Horizons LOD rendering.",
   "authors": [
     "Jay"
   ],
+  "contact": {
+    "homepage": "https://github.com/srsp2282/dh-toggle",
+    "sources": "https://github.com/srsp2282/dh-toggle",
+    "issues": "https://github.com/srsp2282/dh-toggle/issues"
+  },
+  "license": "MIT",
   "environment": "client",
   "entrypoints": {
     "client": [
